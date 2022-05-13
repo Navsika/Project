@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item
+     android:id="@+id/tasks"
+     android:title="Tasks"
+     app:showAsAction="ifRoom"
+     android:icon="@drawable/ic_baseline_list"
+     />
+
+    <item
+        android:id="@+id/pet"
+        android:title="Pet"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_pets"
+        />
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="never"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_settings"
+        />
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_help"
+        />
+</menu>
